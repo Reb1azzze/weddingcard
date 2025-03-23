@@ -1,0 +1,86 @@
+.mainPage {
+    margin: auto;
+    width: 100dvw;
+}
+
+.page-container {
+    margin: auto;
+    width: 45dvw;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 40px 40px 0 0;
+    box-shadow: 0 0 800px 1px rgba(0, 0, 0, .9);
+    padding: 30px;
+    box-sizing: border-box;
+
+    @media (max-width: 1600px) {
+        width: 60dvw;
+    }
+    @media (max-width: 1200px) {
+        width: 75dvw;
+    }
+    @media (max-width: 850px) {
+        width: 85dvw;
+    }
+    @media (max-width: 700px) {
+        width: auto;
+    }
+    @media (max-width: 500px) {
+        padding: 10px;
+    }
+}
+
+.nameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100dvh;
+    text-align: center;
+    font-family: Florisel, sans-serif;
+}
+
+.names {
+    height: 88dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.names-text {
+    align-content: center;
+    font-size: 10em;
+    height: 200px;
+
+    @media (max-width: 700px) {
+        font-size: 8em;
+        height: 170px;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 7em;
+        height: 150px;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 6em;
+        height: 130px;
+    }
+
+    @media (max-width: 430px) {
+        font-size: 5em;
+        height: 110px;
+    }
+}
+
+.data-text {
+    margin-top: auto;
+    font-size: 7em;
+}
+
+.photo-component {
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+

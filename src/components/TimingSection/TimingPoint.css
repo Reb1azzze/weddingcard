@@ -1,0 +1,54 @@
+.timing-point {
+    display: flex;
+    flex-direction: row;
+    font-size: 4em;
+    gap: 10px;
+
+    @media (max-width: 500px) {
+        gap: 0;
+    }
+}
+
+.timing-time {
+    font-size: 1em;
+    writing-mode: vertical-rl;
+    transform: scale(-1, -1);
+    text-align: center;
+
+    @media (max-width: 700px) {
+        font-size: 0.6em;
+    }
+}
+
+.timing-divider {
+
+}
+
+.ant-divider-vertical {
+    height: auto !important;
+}
+
+.timing-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.timing-header {
+    font-size: 1em;
+    font-family: Florisel, sans-serif;
+
+    @media (max-width: 500px) {
+        font-size: 0.8em;
+    }
+}
+
+.timing-text {
+    font-size: 0.6em;
+
+    @media (max-width: 850px) {
+        font-size: 0.4em;
+    }
+}

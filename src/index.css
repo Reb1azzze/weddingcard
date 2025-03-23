@@ -1,4 +1,6 @@
 body {
+  box-sizing: border-box;
+  overflow-x: hidden;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +12,22 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'LarisaScript';
+  src: local('Larisa script.ttf'), url('./fonts/Larisa script.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Florisel';
+  src: local('Florisel script.ttf'), url('./fonts/Florisel script.ttf') format('truetype');
+}
+
+.font-LarisaScript {
+  font-family: 'LarisaScript', sans-serif;
+}
+
+.font-Florisel {
+  font-family: 'Florisel', sans-serif;
 }

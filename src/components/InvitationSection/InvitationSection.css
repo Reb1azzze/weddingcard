@@ -1,0 +1,44 @@
+.invitation-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    margin: auto;
+    border-radius: 40px 40px 0 0;
+    padding: 30px;
+    box-sizing: border-box;
+    opacity: 0.9;
+
+    @media (max-width: 600px) {
+        padding: 15px;
+    }
+
+    @media (max-width: 450px) {
+        padding: 10px;
+    }
+}
+
+.container-header {
+    font-size: 10em;
+    text-align: center;
+    font-family: Florisel, sans-serif;
+
+    @media (max-width: 850px) {
+        font-size: 8em;
+    }
+    @media (max-width: 500px) {
+        font-size: 6em;
+    }
+    @media (max-width: 400px) {
+        font-size: 5em;
+    }
+}
+
+.container-text {
+    text-align: center;
+    font-size: 3em;
+
+    @media (max-width: 850px) {
+        font-size: 2em;
+    }
+}
