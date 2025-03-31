@@ -19,18 +19,21 @@
 }
 
 .container-header {
-    font-size: 10em;
+    font-size: 9em;
     text-align: center;
     font-family: Florisel, sans-serif;
 
     @media (max-width: 850px) {
         font-size: 8em;
     }
-    @media (max-width: 500px) {
+    @media (max-width: 650px) {
         font-size: 6em;
     }
-    @media (max-width: 400px) {
+    @media (max-width: 460px) {
         font-size: 5em;
+    }
+    @media (max-width: 380px) {
+        font-size: 4.5em;
     }
 }
 
@@ -40,5 +43,11 @@
 
     @media (max-width: 850px) {
         font-size: 2em;
+    }
+    @media (max-width: 460px) {
+        font-size: 1.8em;
+    }
+    @media (max-width: 380px) {
+        font-size: 1.5em;
     }
 }
