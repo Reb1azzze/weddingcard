@@ -1,4 +1,5 @@
 import React from 'react';
+import PhotoUs from "../assets/jpg/photoUs.jpg";
 import PhotoLoc1 from "../assets/jpg/photoLocation2.jpg";
 import PhotoLoc2 from "../assets/jpg/photoLocation.jpg";
 import PhotoTiming from "../assets/jpg/photoTiming.jpg";
@@ -26,6 +27,7 @@ const MainPage = () => {
                 <span className='data-text'>25.07.25</span>
             </div>
             <div className="page-container">
+                <img alt={'wefwef4s'} style={{borderRadius: "40px 40px 0 0"}} className={'photo-component'} src={PhotoUs}/>
                 <InvitationSection/>
                 <img alt={'wefwef'} className={'photo-component'} src={PhotoLoc1}/>
                 <LocationSection/>
@@ -36,7 +38,7 @@ const MainPage = () => {
                 <img src={DressCode} className={'photo-component'} style={{marginBottom: '20px'}} alt='1'/>
                 <img src={girlsDressed} className={'photo-component'} alt='1'/>
                 <DetailsSection/>
-                <img alt={'wefwef'} className={'photo-component'} src={PhotoDetails}/>
+                <img alt={'wefwef'} style={{borderRadius: "0 0 40px 40px"}} className={'photo-component'} src={PhotoDetails}/>
             </div>
         </div>
     );
